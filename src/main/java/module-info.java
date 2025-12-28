@@ -1,6 +1,7 @@
 module br.com.app.messagetibco {
     requires javafx.controls;
     requires javafx.fxml;
+    requires static lombok;
 
 
     opens br.com.app.messagetibco to javafx.fxml;

@@ -3,31 +3,33 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns="http://javafx.com/javafx/17"
-      xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="br.com.app.messagetibco.controller.HomeController">
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="br.com.app.messagetibco.controller.HomeController">
 
-    <MenuBar>
-        <Menu text="%menu.tools">
-            <MenuItem text="%menu.tools.cracker" />
-            <SeparatorMenuItem />
-            <MenuItem text="%menu.tools.Sender" />
-            <SeparatorMenuItem />
-            <MenuItem text="%menu.tools.Listening" />
-        </Menu>
+    <top>
+        <MenuBar>
+            <Menu text="%home.view.menu.tools">
+                <MenuItem text="%home.view.menu.tools.cracker" onAction="#openToolsMessageCracker"/>
+                <SeparatorMenuItem />
+                <MenuItem text="%home.view.menu.tools.sender" onAction="#openToolsSender"/>
+                <SeparatorMenuItem />
+                <MenuItem text="%home.view.menu.tools.listening" />
+            </Menu>
 
-        <Menu text="Settings">
-            <MenuItem text="Sender" />
-            <MenuItem text="Listening" />
-        </Menu>
+            <Menu text="%home.view.menu.settings">
+                <MenuItem text="%home.view.menu.settings.sender"  onAction="#openSettingsSender"/>
+                <MenuItem text="%home.view.menu.settings.listening" />
+            </Menu>
 
-        <Menu text="Help">
-            <MenuItem text="About" />
-        </Menu>
-    </MenuBar>
+            <Menu text="%home.view.menu.help">
+                <MenuItem text="%home.view.menu.help.about" />
+            </Menu>
+        </MenuBar>
+    </top>
 
-    <VBox alignment="CENTER" spacing="20" VBox.vgrow="ALWAYS">
-        <Label text="Tibco Cracker" />
-    </VBox>
+    <center>
+        <StackPane fx:id="content"/>
+    </center>
 
-</VBox>
+</BorderPane>

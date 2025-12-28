@@ -10,17 +10,9 @@
 <VBox alignment="CENTER" spacing="20"
       xmlns="http://javafx.com/javafx/17.0.12"
       xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="br.com.app.messagetibco.controller.MessageCrackerController">
+      fx:controller="br.com.app.messagetibco.controller.SenderController">
 
     <padding>
         <Insets top="20" right="20" bottom="20" left="20"/>
     </padding>
-
-    <TextArea prefHeight="200" prefWidth="200" fx:id="textAreaMessageTibco"/>
-
-    <HBox spacing="10" alignment="CENTER">
-        <Button text="%message.cracker.view.btn.cracker" onAction="#onCracker"/>
-        <Button text="%message.cracker.view.btn.clear" onAction="#onClear"/>
-    </HBox>
-
 </VBox>

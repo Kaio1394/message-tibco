@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="br.com.app.messagetibco.controller.HomeController">
+
+    <MenuBar>
+        <Menu text="%menu.tools">
+            <MenuItem text="%menu.tools.cracker" />
+            <SeparatorMenuItem />
+            <MenuItem text="%menu.tools.Sender" />
+            <SeparatorMenuItem />
+            <MenuItem text="%menu.tools.Listening" />
+        </Menu>
+
+        <Menu text="Settings">
+            <MenuItem text="Sender" />
+            <MenuItem text="Listening" />
+        </Menu>
+
+        <Menu text="Help">
+            <MenuItem text="About" />
+        </Menu>
+    </MenuBar>
+
+    <VBox alignment="CENTER" spacing="20" VBox.vgrow="ALWAYS">
+        <Label text="Tibco Cracker" />
+    </VBox>
+
+</VBox>

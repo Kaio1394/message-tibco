@@ -18,8 +18,10 @@
             </Menu>
 
             <Menu text="%home.view.menu.settings">
-                <MenuItem text="%home.view.menu.settings.sender"  onAction="#openSettingsSender"/>
-                <MenuItem text="%home.view.menu.settings.listening" />
+                <Menu text="%home.view.menu.settings.register">
+                    <MenuItem text="%home.view.menu.settings.register.sender"  onAction="#openSettingsSender"/>
+                    <MenuItem text="%home.view.menu.settings.register.listening" />
+                </Menu>
             </Menu>
 
             <Menu text="%home.view.menu.help">

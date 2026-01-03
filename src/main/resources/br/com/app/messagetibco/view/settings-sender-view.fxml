@@ -18,17 +18,18 @@
             <ColumnConstraints hgrow="ALWAYS" />
         </columnConstraints>
 
-        <Label text="%settings.sender.view.label.daemon" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-        <TextField fx:id="daemonField" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Label text="%settings.sender.view.label.tag" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <TextField fx:id="tagField" GridPane.columnIndex="1" GridPane.rowIndex="0" />
 
-        <Label text="%settings.sender.view.label.host" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-        <TextField fx:id="hostField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Label text="%settings.sender.view.label.daemon" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <TextField fx:id="daemonField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
-        <Label text="%settings.sender.view.label.service" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-        <TextField fx:id="serviceField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Label text="%settings.sender.view.label.network" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <TextField fx:id="networkField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
 
-        <Label text="%settings.sender.view.label.subject" GridPane.columnIndex="0" GridPane.rowIndex="3" />
-        <TextField fx:id="subjectField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Label text="%settings.sender.view.label.service" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <TextField fx:id="serviceField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
       <rowConstraints>
          <RowConstraints />
          <RowConstraints />

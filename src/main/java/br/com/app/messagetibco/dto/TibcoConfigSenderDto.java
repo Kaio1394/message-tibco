@@ -17,6 +17,6 @@ public class TibcoConfigSenderDto {
 
     @Override
     public String toString() {
-        return super.toString();
+        return tag;
     }
 }

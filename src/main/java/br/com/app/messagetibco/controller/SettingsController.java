@@ -16,12 +16,16 @@ import javafx.scene.control.TextField;
 import static br.com.app.messagetibco.utils.AlertUtil.showWarning;
 
 public class SettingsController {
+
     private TibcoConfigService service;
 
     @FXML
     public void initialize() {
         this.service = new TibcoConfigService(new TibcoConfigRepository(JpaUtil.getEntityManager()));
     }
+
+    @FXML
+    public TextField tagField;
 
     @FXML
     private TextField daemonField;
@@ -54,6 +58,7 @@ public class SettingsController {
             t.setDaemon(daemonField.getText());
             t.setService(serviceField.getText());
             t.setNetwork(networkField.getText());
+            t.setTag(tagField.getText());
             this.service.saveConfig(t);
             AlertUtil.showInfo(
                     "Sucesso",

@@ -22,7 +22,7 @@ public class HomeController {
     }
 
     @FXML
-    private void openSettingsSender(){
+    private void openSettingsTibco(){
         loadView("/br/com/app/messagetibco/view/settings-sender-view.fxml");
     }
 

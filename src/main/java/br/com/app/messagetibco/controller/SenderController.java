@@ -74,4 +74,7 @@ public class SenderController {
 
     public void onSenderMessage() {
     }
+
+    public void onListening() {
+    }
 }

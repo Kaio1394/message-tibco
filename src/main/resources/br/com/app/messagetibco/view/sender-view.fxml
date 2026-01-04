@@ -41,6 +41,12 @@
         <Label text="%tools.sender.view.label.message" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
         <TextArea prefHeight="200" prefWidth="200" fx:id="textAreaMessageTibco" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
 
-        <Button text="%tools.sender.view.button.send" GridPane.columnIndex="1" GridPane.rowIndex="6" onAction="#onSenderMessage"/>
+        <HBox spacing="10"
+              alignment="CENTER_RIGHT"
+              GridPane.columnIndex="1"
+              GridPane.rowIndex="6">
+            <Button text="%tools.sender.view.button.listening" onAction="#onListening"/>
+            <Button text="%tools.sender.view.button.send" onAction="#onSenderMessage"/>
+        </HBox>
     </GridPane>
 </VBox>

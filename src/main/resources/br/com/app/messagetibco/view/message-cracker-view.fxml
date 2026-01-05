@@ -23,4 +23,11 @@
         <Button text="%message.cracker.view.btn.clear" onAction="#onClear"/>
     </HBox>
 
+    <TableView fx:id="tableFields" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn text="Tag" fx:id="colKey"/>
+            <TableColumn text="Value" fx:id="colValue"/>
+        </columns>
+    </TableView>
+
 </VBox>

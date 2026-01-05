@@ -52,7 +52,9 @@ public class SenderController {
         serviceField.clear();
     }
     private void initComboListener() {
-        cbListSenderConfig.valueProperty().addListener((obs, oldValue, selected) -> {
+        cbListSenderConfig.valueProperty().addListener((obs,
+                                                        oldValue,
+                                                        selected) -> {
             if (selected != null) {
                 fillFields(
                         selected.getDaemon(),
@@ -64,7 +66,6 @@ public class SenderController {
             }
         });
     }
-
     public void getListConfigSender(){
         var listConfigSender = this.service.getListTibcoConfig();
         cbListSenderConfig.setItems(

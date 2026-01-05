@@ -21,6 +21,7 @@ module br.com.app.messagetibco {
     exports br.com.app.messagetibco.controller;
     exports br.com.app.messagetibco.repository;
     exports br.com.app.messagetibco.model;
+    exports br.com.app.messagetibco.service;
 
     opens br.com.app.messagetibco.dto to modelmapper;
 }

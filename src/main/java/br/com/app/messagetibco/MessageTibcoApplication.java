@@ -1,6 +1,6 @@
 package br.com.app.messagetibco;
 
-import br.com.app.messagetibco.config.I18n;
+import br.com.app.messagetibco.application.config.I18n;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

@@ -1,4 +1,4 @@
-package br.com.app.messagetibco.dto;
+package br.com.app.messagetibco.application.dto;
 
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;

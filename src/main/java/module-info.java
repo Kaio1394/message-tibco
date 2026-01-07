@@ -14,14 +14,14 @@ module br.com.app.messagetibco {
     // Abrindo pacotes para reflexão
     opens br.com.app.messagetibco to javafx.fxml; // se tiver FXML na raiz
     opens br.com.app.messagetibco.controller to javafx.fxml; // controladores
-    opens br.com.app.messagetibco.model to org.hibernate.orm.core; // Hibernate callbacks/reflection
+    opens br.com.app.messagetibco.domain.model to org.hibernate.orm.core; // Hibernate callbacks/reflection
 
     // Exportando pacotes públicos
     exports br.com.app.messagetibco;
     exports br.com.app.messagetibco.controller;
-    exports br.com.app.messagetibco.repository;
-    exports br.com.app.messagetibco.model;
-    exports br.com.app.messagetibco.service;
+    exports br.com.app.messagetibco.domain.repository;
+    exports br.com.app.messagetibco.domain.model;
+    exports br.com.app.messagetibco.application.service;
 
-    opens br.com.app.messagetibco.dto to modelmapper;
+    opens br.com.app.messagetibco.application.dto to modelmapper;
 }

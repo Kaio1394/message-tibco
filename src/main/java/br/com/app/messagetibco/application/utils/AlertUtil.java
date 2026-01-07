@@ -1,4 +1,4 @@
-package br.com.app.messagetibco.utils;
+package br.com.app.messagetibco.application.utils;
 
 import javafx.scene.control.Alert;
 

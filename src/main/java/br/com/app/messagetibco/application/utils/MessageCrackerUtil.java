@@ -1,6 +1,6 @@
-package br.com.app.messagetibco.utils;
+package br.com.app.messagetibco.application.utils;
 
-import br.com.app.messagetibco.model.MessageTibco;
+import br.com.app.messagetibco.domain.model.MessageTibco;
 
 import java.util.HashMap;
 import java.util.Map;

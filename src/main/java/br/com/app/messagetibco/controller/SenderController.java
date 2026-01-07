@@ -1,12 +1,10 @@
 package br.com.app.messagetibco.controller;
 
-import br.com.app.messagetibco.dto.TibcoConfigSenderDto;
-import br.com.app.messagetibco.model.TibcoConfigSender;
-import br.com.app.messagetibco.repository.TibcoConfigRepository;
-import br.com.app.messagetibco.service.TibcoConfigService;
-import br.com.app.messagetibco.utils.JpaUtil;
+import br.com.app.messagetibco.application.dto.TibcoConfigSenderDto;
+import br.com.app.messagetibco.domain.repository.TibcoConfigRepository;
+import br.com.app.messagetibco.application.service.TibcoConfigService;
+import br.com.app.messagetibco.application.utils.JpaUtil;
 import javafx.collections.FXCollections;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextArea;

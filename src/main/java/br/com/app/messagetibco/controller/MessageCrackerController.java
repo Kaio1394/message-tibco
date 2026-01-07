@@ -1,14 +1,13 @@
 package br.com.app.messagetibco.controller;
 
-import br.com.app.messagetibco.model.MessageTibco;
-import br.com.app.messagetibco.service.MessageCrackerService;
-import br.com.app.messagetibco.utils.AlertUtil;
-import br.com.app.messagetibco.utils.MessageCrackerUtil;
+import br.com.app.messagetibco.domain.model.MessageTibco;
+import br.com.app.messagetibco.application.service.MessageCrackerService;
+import br.com.app.messagetibco.application.utils.AlertUtil;
+import br.com.app.messagetibco.application.utils.MessageCrackerUtil;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;

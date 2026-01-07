@@ -1,6 +1,6 @@
-package br.com.app.messagetibco.repository;
+package br.com.app.messagetibco.domain.repository;
 
-import br.com.app.messagetibco.model.TibcoConfigSender;
+import br.com.app.messagetibco.domain.model.TibcoConfigSender;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 

@@ -1,4 +1,4 @@
-package br.com.app.messagetibco.dto;
+package br.com.app.messagetibco.application.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,14 +9,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class TibcoConfigSenderDto {
+public class TibcoConfigSenderRegisterDto {
     private String tag;
     private String daemon;
     private String service;
     private String network;
-
-    @Override
-    public String toString() {
-        return tag;
-    }
 }

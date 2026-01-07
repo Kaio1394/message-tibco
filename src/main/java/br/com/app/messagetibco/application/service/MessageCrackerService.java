@@ -1,7 +1,7 @@
-package br.com.app.messagetibco.service;
+package br.com.app.messagetibco.application.service;
 
-import br.com.app.messagetibco.model.MessageTibco;
-import br.com.app.messagetibco.utils.MessageCrackerUtil;
+import br.com.app.messagetibco.domain.model.MessageTibco;
+import br.com.app.messagetibco.application.utils.MessageCrackerUtil;
 
 public class MessageCrackerService {
     private final MessageCrackerUtil util;

@@ -1,4 +1,4 @@
-package br.com.app.messagetibco.model;
+package br.com.app.messagetibco.domain.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

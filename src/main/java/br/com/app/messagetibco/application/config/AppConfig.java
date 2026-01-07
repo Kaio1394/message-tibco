@@ -1,4 +1,4 @@
-package br.com.app.messagetibco.config;
+package br.com.app.messagetibco.application.config;
 
 import java.io.InputStream;
 import java.util.Properties;

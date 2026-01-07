@@ -1,19 +1,14 @@
 package br.com.app.messagetibco.controller;
 
-import br.com.app.messagetibco.dto.TibcoConfigSenderRegisterDto;
-import br.com.app.messagetibco.exception.TagAlreadyExistsException;
-import br.com.app.messagetibco.model.TibcoConfigSender;
-import br.com.app.messagetibco.repository.TibcoConfigRepository;
-import br.com.app.messagetibco.service.TibcoConfigService;
-import br.com.app.messagetibco.utils.AlertUtil;
-import br.com.app.messagetibco.utils.JpaUtil;
-import jakarta.persistence.EntityManager;
-import javafx.event.ActionEvent;
+import br.com.app.messagetibco.application.dto.TibcoConfigSenderRegisterDto;
+import br.com.app.messagetibco.domain.exception.TagAlreadyExistsException;
+import br.com.app.messagetibco.domain.repository.TibcoConfigRepository;
+import br.com.app.messagetibco.application.service.TibcoConfigService;
+import br.com.app.messagetibco.application.utils.AlertUtil;
+import br.com.app.messagetibco.application.utils.JpaUtil;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
-
-import static br.com.app.messagetibco.utils.AlertUtil.showWarning;
 
 public class SettingsController {
 

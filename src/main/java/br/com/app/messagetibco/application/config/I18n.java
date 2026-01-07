@@ -1,6 +1,4 @@
-package br.com.app.messagetibco.config;
-
-import lombok.AllArgsConstructor;
+package br.com.app.messagetibco.application.config;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

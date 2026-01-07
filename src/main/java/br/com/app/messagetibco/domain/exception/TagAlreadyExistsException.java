@@ -1,4 +1,4 @@
-package br.com.app.messagetibco.exception;
+package br.com.app.messagetibco.domain.exception;
 
 public class TagAlreadyExistsException extends RuntimeException {
     public TagAlreadyExistsException(String tag) {

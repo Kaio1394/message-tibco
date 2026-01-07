@@ -1,4 +1,4 @@
-package br.com.app.messagetibco.model;
+package br.com.app.messagetibco.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
